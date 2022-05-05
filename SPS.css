@@ -1,0 +1,39 @@
+#choice-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    text-align: center;
+    line-height: 80px;
+}
+#stone{
+    background-color: rgb(104, 89, 67);
+    color:white;
+}
+#paper{
+    background-color: rgb(255, 254, 251);
+    color:rgb(14, 13, 13);
+}
+#Scissor{
+    background-color: rgb(107, 148, 151);
+    color:rgb(14, 13, 13);
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#score-board{
+    display:flex;
+}
+#scissor:hover{
+    transform: scale(1.1);
+}
+#stone:hover{
+    transform: scale(1.1);
+}
+#paper:hover{
+    transform: scale(1.1);
+}
+#result{
+    display:flex
+}
+
